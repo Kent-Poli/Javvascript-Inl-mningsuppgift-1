@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inlämningsuppgift 1</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CREATE ACCOUNT</h1>
+      <form id="reg-form">
+        <div class="input-container">
+          <input id="input-firstName" type="text" placeholder="First Name" />
+          <i class="fas fa-check check1"></i>
+        </div>
+        <div id="error-text1">
+          You must enter your First Name more then 2 letter or
+        </div>
+        <div class="input-container">
+          <input id="input-lastName" type="text" placeholder="Last Name" />
+          <i class="fas fa-check check2"></i>
+        </div>
+        <div id="error-text2">
+          You must enter your Last Name more then 2 letter or
+        </div>
+        <div class="input-container">
+          <input id="input-email" type="text" placeholder="Email" />
+          <i class="fas fa-check check3"></i>
+        </div>
+        <div id="error-email">
+          You must enter your email more then 2 letter or
+        </div>
+
+        <div class="check-container">
+          <input type="checkbox" id="check" name="check" />
+          <label for="check"
+            >I agree all statements in <u>Terms of service</u></label
+          >
+        </div>
+        <div id="error-check">
+          You must enter your email more then 2 letter or
+        </div>
+        <button id="reg-button">Register</button>
+      </form>
+      <ul id="ul-list"></ul>
+    </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="index1.js"></script>
+  </body>
+</html>
